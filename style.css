@@ -39,4 +39,33 @@ img {
     max-width: 90%;
 }
 
-/* código omitido */
+button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #298069;
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
